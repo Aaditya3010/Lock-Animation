@@ -1,0 +1,93 @@
+.square
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SstU736vVE-vqHWBXTvRjNJYALLumOfyYQ&usqp=CAU");
+    background-position: 0px;
+    width:50%;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+}
+.square2
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SstU736vVE-vqHWBXTvRjNJYALLumOfyYQ&usqp=CAU");
+    width:50%;
+    height: 100%;
+    margin-left: 50%;
+    position: absolute;
+    z-index: 1;
+}
+.circle
+{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnZ5RDumMhJUDvqAIgWc-j9FZVXsB7yPFSGw&usqp=CAU");
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    margin-left: 36%;
+    z-index: 2;
+}
+p
+{
+    background-color: gray;
+    display: inline-flex;
+    font-size: 50px;
+    height: 50px;
+    width: 120px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    left: 35%;
+}
+.password
+{
+    color:  whitesmoke;
+    font-size: 35px;
+    font-weight: 400;
+    position: absolute;
+    top: 36%;
+    left: 15%;
+}
+.password_box
+{
+    height: 30px;
+    width: 140px;
+    position: absolute;
+    top : 52%;
+    left: 31.5%;
+}
+.submit
+{
+    position: absolute;
+    width: 45%;
+    top: 70%;
+    left: 30.5%;
+}
+.fingerprint
+{
+    position: relative;
+    left: 34%;
+    top: 5%;
+}
+body
+{
+    background-color: black;
+    margin: 0px;
+    z-index: 0;
+}
+.circle.fadeout
+{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+.fadeouta
+{
+    transform: rotate(30deg);
+    transition: 3s;
+}
+.fadeoutb
+{
+    transform-box: rotate(30deg);
+    transition: 3s;
+}

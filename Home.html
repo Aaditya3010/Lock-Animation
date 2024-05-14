@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body onload='document.form1.text1.focus()'>
+    <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+<div id="main">
+    <div class="circle" id="circle">
+        <div class="fingerprint">
+            <lord-icon
+                src="https://cdn.lordicon.com/rqqkvjqf.json"
+                trigger="button"
+                colors="primary:#848484,secondary:#e88c30"
+                style="width:120px;height:120px">
+            </lord-icon>
+        </div>
+        <form name="form1" action="#">
+            <ul>
+            <li><input class="password_box" type='text' name='text1'/></li>
+            <li class="password">Enter the password</li>
+            <li class="submit"><input style ="font-size: 25px;"type="submit" name="submit" value="Enter the lab" onclick="CheckPassword(document.form1.text1)"/></li>
+            </ul>
+        </form>
+    </div>
+    <div class="square" id="square"></div>
+    <div class="square2" id="square2"></div>
+    
+    <script src="timer.js"></script>
+</div>  
+</body>
+</html>

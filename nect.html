@@ -1,0 +1,49 @@
+
+        <p id="countdown">10:00</p>
+
+        <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
+<lord-icon
+    src="https://cdn.lordicon.com/rqqkvjqf.json"
+    trigger="loop"
+    colors="primary:#848484,secondary:#e88c30"
+    style="width:250px;height:250px">
+</lord-icon>
+
+
+
+<form action="/action_page.php" id="form">
+    <div class="password">
+        <label for="userPassword">Enter your password</label>
+    </div>
+    <div class="password_box">
+        <input name="userpwd" id="userPassword" type="password" style="height: 50px; width: 200px;font-size: 30px;background-color: rgb(131, 130, 130);">
+    </div>
+    <div class="Enter">
+        <input type="submit" name="submit" value="submit" class="enter" onclick="CheckPassword(document.form.userPassword)">ENTER LAB</input>
+    </div>
+</form>
+
+
+function CheckPassword(inputtxt) 
+{ 
+var passw=  "12345678";
+if(inputtxt===passw) 
+{ 
+alert('Correct, try another...')
+return true;
+}
+else
+{ 
+alert('Wrong...!')
+return false;
+}
+}
+
+
+
+var box = document.getElementsByClassName('circle')[0];
+box.classList.add('fadeout');
+var boxOne = document.getElementsByClassName('square')[0];
+boxOne.classList.add('fadeouta');
+var boxTwo = document.getElementsByClassName('square2')[0];
+boxTwo.classList.add('fadeoutb');
